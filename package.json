@@ -1,8 +1,13 @@
 {
   "name": "react-owl-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "aVileBroker <avilebroker@gmail.com> (http://vile.studio)",
   "private": false,
+  "main": "exports.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/aVileBroker/react-owl-ui"
+  },
   "dependencies": {
     "@mdi/js": "^3.8.95",
     "@mdi/react": "^1.2.1",
