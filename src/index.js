@@ -1,22 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 
-import styles from './styles.css'
+import Colors from './utils/Colors';
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
+export Colors from './utils/Colors';
 
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+export const ExampleComponent = ({ text }) => (
+  <div style={{
+    backgroundColor: Colors.dallas.primary,
+    color: Colors.dallas.secondary
+  }}>
+    Example Component: {text}
+  </div>
+);

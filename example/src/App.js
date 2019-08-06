@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-owl-ui'
+import { ExampleComponent } from 'react-owl-ui'
 
 export default class App extends Component {
   render () {
