@@ -5,12 +5,13 @@
   "private": false,
   "main": "exports.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/aVileBroker/react-owl-ui"
+    "type": "git",
+    "url": "https://github.com/aVileBroker/react-owl-ui"
   },
   "dependencies": {
     "@mdi/js": "^3.8.95",
     "@mdi/react": "^1.2.1",
+    "babel": "^6.23.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
