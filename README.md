@@ -1,11 +1,31 @@
-## OWL UI - Overwatch League motion graphics lovingly recreated in React
+# react-owl-ui
 
-In the project directory, you can run:
+> Overwatch League Graphics in React
 
-### `npm start`
+[![NPM](https://img.shields.io/npm/v/react-owl-ui.svg)](https://www.npmjs.com/package/react-owl-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Install
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+```bash
+npm install --save react-owl-ui
+```
+
+## Usage
+
+```jsx
+import React, { Component } from 'react'
+
+import MyComponent from 'react-owl-ui'
+
+class Example extends Component {
+  render () {
+    return (
+      <MyComponent />
+    )
+  }
+}
+```
+
+## License
+
+MIT © [aVileBroker](https://github.com/aVileBroker)
