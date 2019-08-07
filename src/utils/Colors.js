@@ -10,9 +10,11 @@ const colorLookup = {
   },
 };
 
-const ColorSchemes = {
+const Colors = {
   base: {
-    white           : 'white',
+    pageBackground  : '#D7D7D7',
+    background      : 'white',
+    primaryText     : '#414245',
     transparentWhite: 'rgba(256, 256, 256, 0)',
     transparentBlack: 'rgba(0, 0, 0, 1)',
   },
@@ -118,4 +120,4 @@ const ColorSchemes = {
   },
 };
 
-export default new Proxy(ColorSchemes, colorLookup);
+export default new Proxy(Colors, colorLookup);

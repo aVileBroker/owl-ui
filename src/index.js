@@ -1,2 +1,3 @@
 export Colors from './utils/Colors';
-export industryFont from './utils/IndustryFont';
+export Dimensions from './utils/Dimensions';
+export linkFonts from './utils/linkFonts';
